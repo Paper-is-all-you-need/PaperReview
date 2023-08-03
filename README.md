@@ -8,4 +8,9 @@
 
   
 ## 2023.08.06
-1. Fast R-CNN (https://arxiv.org/abs/1506.01497)
+1. Fast R-CNN (ICCV 2015)
+   - (https://arxiv.org/abs/1506.01497)
+2. Dynamic Heterogeneous-Graph Reasoning with Language Models and
+Knowledge Representation Learning for Commonsense Question
+Answering (ACL 2023)
+  - (https://aclanthology.org/2023.acl-long.785.pdf)
