@@ -8,3 +8,4 @@
 
   
 ## 2023.08.06
+1. Fast R-CNN (https://arxiv.org/abs/1506.01497)
