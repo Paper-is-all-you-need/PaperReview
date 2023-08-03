@@ -14,4 +14,4 @@
 3. Dynamic Heterogeneous-Graph Reasoning with Language Models and
 Knowledge Representation Learning for Commonsense Question
 Answering (ACL 2023)
-  - (https://aclanthology.org/2023.acl-long.785.pdf)
+    - (https://aclanthology.org/2023.acl-long.785.pdf)
