@@ -7,12 +7,12 @@
 - https://github.com/rrr-jh
 
   
-## 2023.08.06
+## 2023.08.13
 1. Fast R-CNN (ICCV 2015)
    - (https://arxiv.org/abs/1506.01497)
    - 발표자 : 이재형
    - 발표자료 : 
-3. Dynamic Heterogeneous-Graph Reasoning with Language Models and
+2. Dynamic Heterogeneous-Graph Reasoning with Language Models and
 Knowledge Representation Learning for Commonsense Question
 Answering (ACL 2023)
     - (https://aclanthology.org/2023.acl-long.785.pdf)
@@ -20,6 +20,3 @@ Answering (ACL 2023)
     - 발표자료 :
 
 ### 금일 피드백
-
-
-## 2023.08.13
