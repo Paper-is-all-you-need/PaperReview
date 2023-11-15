@@ -22,5 +22,7 @@ Answering (ACL 2023)
 
 
 
-## 2023.08.20
-1. 
+## 2023.11.15
+1. Loss Functions for Regression
+   - 발표자 : 이재형
+   - 발표자료 : Loss Functions For Regression.pdf
