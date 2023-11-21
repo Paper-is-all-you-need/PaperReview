@@ -33,5 +33,4 @@ Answering (ACL 2023)
    - https://arxiv.org/abs/2302.11799
    - 발표자 : 정지원
    - 발표는 논문과 보충자료를 이용해서 발표함
-   - 발표 보충자료 : 
-   - 
+   - 발표 보충자료 : https://github.com/Paper-is-all-you-need/PaperReview/blob/main/20231117/FiTs-%20Fine-grained%20Two-stage%20Training%20for%20Knowledge-aware%20Question%20Answering_%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB.pd
