@@ -26,3 +26,12 @@ Answering (ACL 2023)
 1. Loss Functions for Regression
    - 발표자 : 이재형
    - 발표자료 : Loss Functions For Regression.pdf
+
+
+## 2023.11.17
+1. Fits : Fine-grained Two-stage Training for knowledge-aware Question Answering (AAAI 2023)
+   - https://arxiv.org/abs/2302.11799
+   - 발표자 : 정지원
+   - 발표는 논문과 보충자료를 이용해서 발표함
+   - 발표 보충자료 : 
+   - 
