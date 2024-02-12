@@ -24,7 +24,8 @@ To analyze graph reasoning more closely, we decompose the problem into **graph e
 
 아래 그림은 graph encoder의 방법이다. 즉, graph encoder == graph to text
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled.png)
+<img width="778" alt="image" src="https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/0a751370-1a4b-4e87-8275-01e6f73041c5">
+
 
 ### Contributions
 
@@ -32,7 +33,8 @@ To analyze graph reasoning more closely, we decompose the problem into **graph e
 2. Insights and best practices for encoding graphs as text for use in LLMs.
 3. A new graph benchmark(GraphQA) to aid the community in studying the effects of graph structure on LLM prompting further.
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled%201.png)
+<img width="741" alt="image" src="https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/16b4cbfd-22a4-4a6a-8b33-bbf9d2869b1b">
+
 
 ### **What to get**
 
@@ -42,7 +44,8 @@ To analyze graph reasoning more closely, we decompose the problem into **graph e
 
 ## 2. Unifying Large Language Models and Knowledge Graphs : A Roadmap
 
-[https://arxiv.org/pdf/2306.08302.pdf](https://arxiv.org/pdf/2306.08302.pdf)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/5c3cf408-b20d-4cdf-a061-8534224a73e5)
+
 
 ### Abstract
 
@@ -69,7 +72,8 @@ KGs are crucial for various applications as they offer accurate explicit knowled
 
 따라서, KGs와 LLM은 서로 상호 보완적으로 도와야 한다. 
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled%202.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/437a1a61-734e-42ea-81f3-a903f9d1dbd0)
+
 
 이 논문은 LLMs와 KGs를 통합하여 각 접근 방식의 장점을 활용하고 각 접근 방식의 한계를 극복하기 위한 전망적인 로드맵을 제시한다. 다양한 하류 작업을 위해 세부적인 분류를 제안하고 포괄적인 리뷰를 실시하며, 이 빠르게 성장하는 분야에서 떠오르는 방향을 강조한다. 우리의 주요 기여는 다음과 같이 요약된다:
 
@@ -98,21 +102,25 @@ We highlight the challenges in existing research and present several promising f
 2. LLM-augmented KGs
 3. Synergized LLMs + KGs
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled%203.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/2703c274-295b-4d91-a54e-425b4954613e)
+
 
 내 연구에 적합한 방향성은 KG-enhanced LLMs 와 Synergized LLMs + KGs이다.
 
 Synergized LLMs + KG의 일반적인 framework를 보면 다음과 같다.
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled%204.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/b19f6105-ac32-46de-9027-18011dc239c6)
+
 
 그렇다면 좀 더 디테일하게 unifying LLMs with KGs에 대한 research를 카테고리화한 그림을 살펴보자.
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled%205.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/94236ee8-3cf4-4863-8527-c91660524276)
+
 
 ### KG-enhanced LLM methods
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled%206.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/13a84c01-8dc7-47aa-a20d-533f44c4036b)
+
 
 여기서 내가 볼만한 논문은 다음과 같다.
 
@@ -122,13 +130,15 @@ Synergized LLMs + KG의 일반적인 framework를 보면 다음과 같다.
 
 ### LLM-augmented KG methods
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled%207.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/9e0b2843-97d2-404a-b926-45548c20cf45)
+
 
 여기서 LLM-augmented KGQA는 내가 예전부터 연구해왔던 분야로서, prompt기반이 아닌 LMs과 KG를 함께 fusion해서 QA-task를 하는 분야이다.
 
 ### Synergize KGs and LLMs
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled%208.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/ea327a79-3420-4c50-a670-f77326d8fb4d)
+
 
 여기서 확인할 것은 Think-on-graph 논문, KSL이다.
 
@@ -163,7 +173,8 @@ This finding is intriguing and has been sensational because CoT may mainly speci
 
 그러나, 이러한 퍼포먼스에도 불구하고, 현재 LLMs은 신뢰할 수 없는 답변을 생성하기에 쉽다. 그리고 사실적이지 않거나 충실하지 않은 추론 체인을 제공하여 불가피하게 잘못된 결론으로 이어질 수 있다.
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled%209.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/1d5022fd-efec-4928-8f1b-960c31d163ef)
+
 
 To address these concerns, we propose a novel Chain-of-Knowledge (CoK) prompting method to boost the LLM’s reasoning capability by a series of exemplars that **combine explicit structure knowledge evidence with textual explanations.**
 
@@ -199,7 +210,8 @@ knowledge to make verification.
 
 본 논문의 프레임워크는 다음과 같다.
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled%2010.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/e6e8158d-521b-4379-b18b-78b84b2c358e)
+
 
 ### Exemplars Construction
 
@@ -270,7 +282,8 @@ Knowldge Graphs(KGs) are clear, logical, and superior mediums of knowledge. Thus
 
 Method overview는 아래 그림과 같다.
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled%2011.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/5e141757-4ba2-4754-9306-ffbce10dfb67)
+
 
 이것이 이 논문의 전부라 볼 수 있다.
 
@@ -296,7 +309,8 @@ Subgraph를 text로 변환해서 Prompt에 넣었다. 즉, graph to text ; graph
 
 본 논문은 QA pair의 subgraph의 question entity → answer entity의 relation path를 찾아가는 방향을 제시한 방법론이다. 
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled%2012.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/7bce5c4d-4777-483e-b2c8-e935bcdbbb82)
+
 
 이것은 subgraph정보를 prompting 했다고 볼 수 있지 않을까??
 
@@ -358,7 +372,8 @@ We call our method MindMap because it enables LLMs to comprehend graphical input
     5. 코사인 유사도를 비교하여 M에  있는 각 엔티티들을 G의 가장 가까운 이웃 엔티티에 링크한다. 이는 다음 단계인 evidence sub-graph를 구축하기 위한 초기 entity set $V_q$를 생성한다.
 2. **Evidence sub-graphs Exploration**
 
-![Untitled](Paper%20Summary%20e41478eaf91d4d479e1ca760cf757603/Untitled%2013.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/d952edde-32f5-4647-ae69-33e270c9fcc5)
+
 
 ### Step 2 : Evidence Graph Aggregation
 
