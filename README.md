@@ -38,11 +38,18 @@ Answering (ACL 2023)
 ## 2024.02.12
 To briefly summarize several papers to get ideas, the list of papers is as follows:
    - 
-     1. Unifying Large Language Models an Knowledge Graphs : A RoadMap
-     2. Reasoning on Graphs : Faithful and Interpretable Large Language Model Reasoning
-     3. Boosting language models reasoning with chain-of-knowledge prompting
-     4. KNOWLEDGE SOLVER: TEACHING LLMS TO SEARCH FOR DOMAIN KNOWLEDGE FROM KNOWLEDGE GRAPHS
-     5. “Mindmap: Knowledge graph prompting sparks graph of thoughts in large language models”
+     1. Talk like a graph : Encoding Graphs for Large Language models (ICLR 2024)
+       - https://arxiv.org/pdf/2310.04560.pdf
+     2. Unifying Large Language Models an Knowledge Graphs : A RoadMap (IEEE Transactions on Knowledge and Data Engineering 2023)
+       - https://arxiv.org/pdf/2306.08302.pdf
+     3. Reasoning on Graphs : Faithful and Interpretable Large Language Model Reasoning (ICLR 2024)
+       - https://arxiv.org/pdf/2310.01061.pdf
+     4. Boosting language models reasoning with chain-of-knowledge prompting (ICLR 2024)
+       - https://arxiv.org/pdf/2306.06427.pdf
+     5. KNOWLEDGE SOLVER: TEACHING LLMS TO SEARCH FOR DOMAIN KNOWLEDGE FROM KNOWLEDGE GRAPHS (arXiv preprint 2023)
+       - https://arxiv.org/pdf/2309.03118.pdf
+     6. “Mindmap: Knowledge graph prompting sparks graph of thoughts in large language models” (arXiv preprint 2023)
+       - https://arxiv.org/pdf/2308.09729.pdf
    - 발표자 : 정지원
    - 발표는 README 파일, 보충자료를 통해서 진행
    - 발표 보충자료 : 
