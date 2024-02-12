@@ -37,7 +37,7 @@ Answering (ACL 2023)
 
 ## 2024.02.12
 
-To briefly summarize several papers to get ideas, the list of papers is as follows:
+1. To briefly summarize several papers to get ideas, the list of papers is as follows:
    - 
      1. Talk like a graph : Encoding Graphs for Large Language models (ICLR 2024)
        - https://arxiv.org/pdf/2310.04560.pdf
