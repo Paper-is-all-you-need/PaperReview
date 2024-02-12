@@ -44,7 +44,7 @@ To analyze graph reasoning more closely, we decompose the problem into **graph e
 
 ## 2. Unifying Large Language Models and Knowledge Graphs : A Roadmap
 
-
+https://arxiv.org/pdf/2306.08302.pdf
 
 
 ### Abstract
@@ -72,7 +72,8 @@ KGs are crucial for various applications as they offer accurate explicit knowled
 
 따라서, KGs와 LLM은 서로 상호 보완적으로 도와야 한다. 
 
-![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/437a1a61-734e-42ea-81f3-a903f9d1dbd0)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/1c0d9ca1-7cee-49a4-90b5-f4c664431108)
+
 
 
 이 논문은 LLMs와 KGs를 통합하여 각 접근 방식의 장점을 활용하고 각 접근 방식의 한계를 극복하기 위한 전망적인 로드맵을 제시한다. 다양한 하류 작업을 위해 세부적인 분류를 제안하고 포괄적인 리뷰를 실시하며, 이 빠르게 성장하는 분야에서 떠오르는 방향을 강조한다. 우리의 주요 기여는 다음과 같이 요약된다:
