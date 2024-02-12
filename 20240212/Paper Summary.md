@@ -44,7 +44,7 @@ To analyze graph reasoning more closely, we decompose the problem into **graph e
 
 ## 2. Unifying Large Language Models and Knowledge Graphs : A Roadmap
 
-![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/5c3cf408-b20d-4cdf-a061-8534224a73e5)
+
 
 
 ### Abstract
