@@ -34,3 +34,15 @@ Answering (ACL 2023)
    - 발표자 : 정지원
    - 발표는 논문과 보충자료를 이용해서 발표함
    - 발표 보충자료 : https://github.com/Paper-is-all-you-need/PaperReview/tree/main/20231117
+
+## 2024.02.12
+To briefly summarize several papers to get ideas, the list of papers is as follows:
+   - 
+     1. Unifying Large Language Models an Knowledge Graphs : A RoadMap
+     2. Reasoning on Graphs : Faithful and Interpretable Large Language Model Reasoning
+     3. Boosting language models reasoning with chain-of-knowledge prompting
+     4. KNOWLEDGE SOLVER: TEACHING LLMS TO SEARCH FOR DOMAIN KNOWLEDGE FROM KNOWLEDGE GRAPHS
+     5. “Mindmap: Knowledge graph prompting sparks graph of thoughts in large language models”
+   - 발표자 : 정지원
+   - 발표는 README 파일, 보충자료를 통해서 진행
+   - 발표 보충자료 : 
