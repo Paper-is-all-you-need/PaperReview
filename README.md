@@ -80,3 +80,22 @@ Answering (ACL 2023)
 ## 추천 논문
 
 아직 읽어보지는 않았지만 흥미로운 내용을 담은 논문들을 추천
+
+1. Intent-based Prompt Calibration: Enhancing prompt optimization with synthetic boundary cases
+   ![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/600961ee-fb36-466e-8e59-e2c364876343)
+
+   Recommender : 정지원
+
+   🌐 Author(s): Elad Levi, et al.
+
+   📅 Publication Date: Feb 05, 2024
+
+   ✨ Key Insights:
+
+   What’s New? They introduced a new method for automatic prompt engineering, using a calibration process that iteratively refines the prompt to the user intent. IPC(Intent-based Prompt         Calibration) outperformed OPRO, and PE.
+
+   Behind the New. During the calibration optimization process, the system iteratively: 1. Suggests a few samples of challenging cases for the task. 2. Evaluates the current prompt on the    
+   generated dataset. 3. Given the last few prompts, suggests a new prompt.
+
+   So, How can we use this? Enhance and perfect your prompts for real-world use cases without human labor!
+
