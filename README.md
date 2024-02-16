@@ -6,8 +6,10 @@ ai페이퍼 리뷰이며 다양한 목적에 따라 자유롭게 기록하는 �
 - https://github.com/jw9603
 - [https://github.com/rrr-jh](https://github.com/eloqlo)
 
-  
-## 2023.08.13
+## 기록 
+
+
+### 2023.08.13
 1. Fast R-CNN (ICCV 2015)
    - (https://arxiv.org/abs/1506.01497)
    - 발표자 : 이재형
@@ -22,20 +24,20 @@ Answering (ACL 2023)
 
 
 
-## 2023.11.15
+### 2023.11.15
 1. Loss Functions for Regression
    - 발표자 : 이재형
    - 발표자료 : Loss Functions For Regression.pdf(https://github.com/Paper-is-all-you-need/PaperReview/blob/main/Loss%20Functions%20For%20Regression.pdf)
 
 
-## 2023.11.17
+### 2023.11.17
 1. Fits : Fine-grained Two-stage Training for knowledge-aware Question Answering (AAAI 2023)
    - https://arxiv.org/abs/2302.11799
    - 발표자 : 정지원
    - 발표는 논문과 보충자료를 이용해서 발표함
    - 발표 보충자료 : https://github.com/Paper-is-all-you-need/PaperReview/tree/main/20231117
 
-## 2024.02.12
+### 2024.02.12
 
 1. To briefly summarize several papers to get ideas, the list of papers is as follows:
    
@@ -55,7 +57,7 @@ Answering (ACL 2023)
    - 발표는 README 파일, 보충자료를 통해서 진행
    - 발표 보충자료 : https://github.com/Paper-is-all-you-need/PaperReview/tree/main/20240212
 
-## 2024.02.16
+### 2024.02.16
 1. To briefly summarize several papers to get ideas, the list of papers is as follows:
 
      1. Selection-Inference : Exploiting Large Language Models for Interpretable Logical Reasoning (ICLR 2023)
@@ -72,4 +74,8 @@ Answering (ACL 2023)
    - 발표자 : 정지원
    - 발표는 README 파일
    - 발표 보충자료 : https://github.com/Paper-is-all-you-need/PaperReview/blob/main/20240216/Paper%20summary.md
+
+
+
+## 추천 논문
    
