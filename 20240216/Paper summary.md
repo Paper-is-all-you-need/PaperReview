@@ -18,7 +18,8 @@
 
 그림은 다음과 같다.
 
-![Untitled](Paper%20summary%20ab1cd0c87b7a4ad18d3ef73cac1ebc55/Untitled.png)
+<img width="902" alt="image" src="https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/d2d539c4-4ec1-4815-864d-01c2a215022a">
+
 
 (a)는 일반적인 baseline, (b)는 COT, (c)는 sI이다.
 
@@ -47,7 +48,8 @@ COT, 이 접근법에서는 LLMs가 답변 이전에 추론 트레이스를 생�
 
 알고리즘은 다음과 같다.
 
-![Untitled](Paper%20summary%20ab1cd0c87b7a4ad18d3ef73cac1ebc55/Untitled%201.png)
+<img width="984" alt="image" src="https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/bae7786a-fba6-4b91-bcc9-a39cbcbd0a9a">
+
 
 ### What to get
 
@@ -89,7 +91,8 @@ AMPLIFY framework는 4단계의 구성으로 이뤄져있다.
 
 ### Method
 
-![Untitled](Paper%20summary%20ab1cd0c87b7a4ad18d3ef73cac1ebc55/Untitled%202.png)
+<img width="583" alt="image" src="https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/09db6855-683d-45d7-b092-fdf107604228">
+
 
 1. Proxy Model Selection
 - 작업 가능한 계산 비용 내에서 post hoc 설명을 생성할 수 있는 프록시 모델을 선택한다. 이를 위해 미리 학습된 모델(예: GPT-2, BERT 등)을 사용하거나 대상 작업에 대해 더 작은 언어 모델을 직접 fine-tune 또는 pre-train하는 두 가지 전략을 고려한다.
@@ -132,7 +135,8 @@ AMPLIFY framework는 4단계의 구성으로 이뤄져있다.
 
 Our goal is to make LLMs generate more factual reasoning chains with CoT prompting assisted with external knowledge, thereby also improving prediction accuracy of the final answer.
 
-![Untitled](Paper%20summary%20ab1cd0c87b7a4ad18d3ef73cac1ebc55/Untitled%203.png)
+<img width="517" alt="image" src="https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/9c2f77a9-6588-4b1b-b3ed-46fd74839bf4">
+
 
 논문의 저자들은 인간의 추론과정을 따르기를 희망한다. 사람이 질문에 답변할 때, 그또는 그녀가 확신이 없다면, 지지하는 사실을 찾아 고려한 후에 최종 답변을 내놓을 것이다.
 
@@ -155,7 +159,8 @@ Our goal is to make LLMs generate more factual reasoning chains with CoT prompti
 
 알고리즘은 다음과 같다.
 
-![Untitled](Paper%20summary%20ab1cd0c87b7a4ad18d3ef73cac1ebc55/Untitled%204.png)
+<img width="740" alt="image" src="https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/6abb4d33-5273-4d18-8d98-7b5cfb508a64">
+
 
 Retrieve external knowledge : DrQA, Wikipedia, Google search
 
