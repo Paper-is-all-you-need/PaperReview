@@ -54,3 +54,22 @@ Answering (ACL 2023)
    - 발표자 : 정지원
    - 발표는 README 파일, 보충자료를 통해서 진행
    - 발표 보충자료 : https://github.com/Paper-is-all-you-need/PaperReview/tree/main/20240212
+
+## 2024.02.16
+1. To briefly summarize several papers to get ideas, the list of papers is as follows:
+
+     1. Selection-Inference : Exploiting Large Language Models for Interpretable Logical Reasoning (ICLR 2023)
+       - [https://arxiv.org/pdf/2310.04560.pdf](https://arxiv.org/pdf/2205.09712.pdf)
+     2. Post Hoc Explanations of Language Models Can Improve Language Models (NeurIPS 2023)
+       - [https://arxiv.org/pdf/2306.08302.pdf](https://arxiv.org/pdf/2305.11426.pdf)
+     3. Verify-and-Edit : A Knowledge-Enhanced Chain-of-Thought Framework (ACL 2023)
+       - [https://arxiv.org/pdf/2310.01061.pdf](https://arxiv.org/pdf/2305.03268.pdf)
+     4. Knowledge-Driven CoT : Exploring Faithful Reasoning in LLMs for Knowledge-intensive Question Answering (arXiv preprint 2023)
+       - [https://arxiv.org/pdf/2306.06427.pdf](https://arxiv.org/pdf/2308.13259.pdf)
+     5. Re-Reading Improves Reasoning in Language Models
+       - [https://arxiv.org/pdf/2309.03118.pdf](https://arxiv.org/pdf/2309.06275.pdf) (ICLR 2024)
+    
+   - 발표자 : 정지원
+   - 발표는 README 파일
+   - 발표 보충자료 : 
+   
