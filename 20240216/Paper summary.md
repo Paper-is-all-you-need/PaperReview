@@ -234,7 +234,8 @@ Next, we request ChatGPT to generate the structured CoT, and append generated re
 
 알고리즘은 다음과 같다;
 
-![Untitled](Paper%20summary%20ab1cd0c87b7a4ad18d3ef73cac1ebc55/Untitled%205.png)
+<img width="355" alt="image" src="https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/8ee700aa-291b-4056-96cf-9975ce7862bf">
+
 
 **Knowledge-Driven CoT**
 
@@ -278,11 +279,13 @@ BM25를 통해 positive, negative passage를 정한다. 정해진 passage들로 
 
 **Fuse-in-Decoder Reader**
 
-![Untitled](Paper%20summary%20ab1cd0c87b7a4ad18d3ef73cac1ebc55/Untitled%206.png)
+<img width="239" alt="image" src="https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/3ec9e6bd-891c-4e64-9761-6a1c585ba832">
+
 
 **Verifier**
 
-![Untitled](Paper%20summary%20ab1cd0c87b7a4ad18d3ef73cac1ebc55/Untitled%207.png)
+<img width="232" alt="image" src="https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/29262ef6-a40e-45cc-9edb-8ac581e0dc8a">
+
 
 ### What to get
 
@@ -324,7 +327,9 @@ CoT collection에 CoT의 내용(demonstration, rationale)들을 retriever-reader
 
 이 논문은 매우 간단하다.
 
-![Untitled](Paper%20summary%20ab1cd0c87b7a4ad18d3ef73cac1ebc55/Untitled%208.png)
+<img width="861" alt="image" src="https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/972ffd39-1ffe-4017-b648-9cd7c67d14b7">
+
+<img width="790" alt="image" src="https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/1c5130da-b1dc-4dcd-a301-f4f22a6dbc61">
 
 논문의 제목처럼 input query를 한 번 더 언급하는 것이다. 위 식에서 $z$는 rationale이다.
 
