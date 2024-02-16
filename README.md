@@ -81,7 +81,7 @@ Answering (ACL 2023)
 
 아직 읽어보지는 않았지만 흥미로운 내용을 담은 논문들을 추천
 
-1. Intent-based Prompt Calibration: Enhancing prompt optimization with synthetic boundary cases
+### 1. Intent-based Prompt Calibration: Enhancing prompt optimization with synthetic boundary cases
    ![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/600961ee-fb36-466e-8e59-e2c364876343)
 
    Recommender : 정지원
