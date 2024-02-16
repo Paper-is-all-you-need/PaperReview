@@ -71,5 +71,5 @@ Answering (ACL 2023)
     
    - 발표자 : 정지원
    - 발표는 README 파일
-   - 발표 보충자료 : 
+   - 발표 보충자료 : https://github.com/Paper-is-all-you-need/PaperReview/blob/main/20240216/Paper%20summary.md
    
