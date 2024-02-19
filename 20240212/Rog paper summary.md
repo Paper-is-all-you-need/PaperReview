@@ -1,5 +1,7 @@
 # Rog paper summary
 
+작성자 : 정지원
+
 ## REASONING ON GRAPHS: FAITHFUL AND INTERPRETABLE LARGE LANGUAGE MODEL REASONING
 
 - [https://arxiv.org/pdf/2310.01061.pdf](https://arxiv.org/pdf/2310.01061.pdf)
@@ -14,7 +16,8 @@ LLM은 많은 NLP task에서 좋은 성능을 보여주고 있다. 특히 놀랍
 
 하지만 이러한 능력에도 불구하고, LLMs는 추론하는데 있어서 여전히 지식의 부족과 hallucination에 빠지기 쉬운것을 보여준다.
 
-![Untitled](Rog%20paper%20summary%2025016068e1834773922ab19458995bc5/Untitled.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/ae164a9c-e329-4946-bf14-ae5830b0cdac)
+
 
 위 그림처럼 지식이 부족하거나(lack of knowledge) hallucination이 LLM에서 추론할 때 종종 발생한다.
 
@@ -42,7 +45,8 @@ These plans are then used to retrieve valid reasoning paths from KGs to conduct 
 In this section, we introduce our method: reasoning on graphs (RoG). We present a novel planning-retrieval-reasoning framework that synergizes LLMs and KGs to conduct faithful and interpretable
 reasoning for KGQA.
 
-![Untitled](Rog%20paper%20summary%2025016068e1834773922ab19458995bc5/Untitled%202.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/d9be4eff-1045-4d73-9252-de15742db9c0)
+
 
 ### Reasoning on Graphs : Planning-Retrieval-Reasoning
 
@@ -59,9 +63,11 @@ Therefore, relation paths can serve as faithful plans for reasoning the answer t
 
 간단히 말해서, we formulate our *RoG* as an optimization problem that aims to maximize the probability of reasoning the answer from a knowledge graph $G$ w.r.t the question $q$ by generating relation paths $z$ as the plan:
 
-![Untitled](Rog%20paper%20summary%2025016068e1834773922ab19458995bc5/Untitled%203.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/f2866a4e-28e5-4017-b51c-efeecf622409)
 
-![Untitled](Rog%20paper%20summary%2025016068e1834773922ab19458995bc5/Untitled%204.png)
+
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/07fcbef1-bc5f-4ab5-b571-441f46b44de7)
+
 
 ### Optimization framework
 
@@ -75,11 +81,13 @@ relation paths as plans;
 2. **retrieval-reasoning optimization**, which enables LLMs to reason based on
 the retrieved reasoning paths.
 
-![Untitled](Rog%20paper%20summary%2025016068e1834773922ab19458995bc5/Untitled%203.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/b37d95f2-ba11-4f51-ab66-511f1b18ff5d)
+
 
 위 식을 ELBO로 최적화를 진행하면 다음과 같다 : 
 
-![Untitled](Rog%20paper%20summary%2025016068e1834773922ab19458995bc5/Untitled%205.png)
+<img width="579" alt="image" src="https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/692c5bee-7c04-415c-9962-365207a59107">
+
 
 where $Q(z)$ denotes the **posterior distribution of faithful relation paths grounded by KGs**. The
 latter term minimizes the KL divergence between the posterior and the prior, which encourages
@@ -87,10 +95,12 @@ LLMs to generate faithful relation paths (planning optimization). The former ter
 expectation that retrieval-reasoning module generates correct answers based on the relation paths
 and KGs (retrieval-reasoning optimization).
 
-![Untitled](Rog%20paper%20summary%2025016068e1834773922ab19458995bc5/Untitled%206.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/068c438b-c36b-4446-bd22-1e394c10de77)
+
 
 위 내용을 실질적으로 어떻게 implementation하는지 알아보자
 
-![Untitled](Rog%20paper%20summary%2025016068e1834773922ab19458995bc5/Untitled%207.png)
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/adfb5e5e-13e8-4140-becb-76309e9786be)
 
-![Untitled](Rog%20paper%20summary%2025016068e1834773922ab19458995bc5/Untitled%208.png)
+
+![image](https://github.com/Paper-is-all-you-need/PaperReview/assets/70795645/76f7f001-e469-4f16-89fc-58ba42a5ff7c)
