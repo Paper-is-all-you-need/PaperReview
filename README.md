@@ -75,6 +75,12 @@ Answering (ACL 2023)
    - 발표는 README 파일
    - 발표 보충자료 : https://github.com/Paper-is-all-you-need/PaperReview/blob/main/20240216/Paper%20summary.md
 
+2. Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data. Foundation Model for Monocular Depth Estimation (2024))
+   - https://arxiv.org/abs/2302.11799
+   - 발표자 : 이재형
+   - 발표는 논문과 보충자료를 이용해서 발표함
+   - 발표 보충자료 : https://github.com/eloqlo/PaperReview/blob/main/20240216/Depth%20Anything.md
+
 
 
 ## 추천 논문
